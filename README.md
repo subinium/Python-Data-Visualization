@@ -16,7 +16,7 @@ matplotlib의 경우에는 인터랙티브하게 사용할 수 있으나 보통 
 | -------------- | ------------------------------------- | ------------------------------------------------------ | -------------------------------------------------- | --- |
 | **matplotlib** | 가장 기본적인 시각화 라이브러리       | [matplotlib](https://matplotlib.org/)                  | [github](https://github.com/matplotlib/matplotlib) | O   |
 | **seaborn**    | matplotlib을 베이스로하는 통계 시각화 | [seaborn](http://seaborn.pydata.org/)                  | [github](https://github.com/mwaskom/seaborn)       | O   |
-| **plotnine**   | ggplot2을 사용할 수 있는 라이브러리   | [plotnine](https://plotnine.readthedocs.io/en/stable/) | [gituhub](https://github.com/has2k1/plotnine)      | X   |
+| **plotnine**   | ggplot2을 사용할 수 있는 라이브러리   | [plotnine](https://plotnine.readthedocs.io/en/stable/) | [github](https://github.com/has2k1/plotnine)       | X   |
 
 ### Interactive
 
@@ -29,7 +29,7 @@ matplotlib의 경우에는 인터랙티브하게 사용할 수 있으나 보통 
 | **plotly**    |             | [plotly](https://plot.ly/python/)        | [github](https://github.com/plotly/plotly.py)     | O   |
 | **bokeh**     |             | [bokeh](https://bokeh.org/)              | [github](https://github.com/bokeh/bokeh)          | O   |
 | **altair**    |             | [altair](https://altair-viz.github.io/)  | [github](https://github.com/altair-viz/altair)    | O   |
-| **pygal**     |             | [pygal](http://www.pygal.org/en/stable/) | [github](https://github.com/Kozea/pygal)          | x   |
+| **pygal**     |             | [pygal](http://www.pygal.org/en/stable/) | [github](https://github.com/Kozea/pygal)          | X   |
 | **pyecharts** |             | [pyecharts](https://pyecharts.org/)      | [github](https://github.com/pyecharts/pyecharts/) | X   |
 
 ### Network
@@ -39,7 +39,7 @@ matplotlib의 경우에는 인터랙티브하게 사용할 수 있으나 보통 
 | Name              | Description | Documentation                                                | Github                                            | use |
 | ----------------- | ----------- | ------------------------------------------------------------ | ------------------------------------------------- | --- |
 | **networkx**      |             | [networkx](https://networkx.github.io/documentation/stable/) | [github](https://github.com/networkx/networkx)    | O   |
-| **python-igraph** |             | [python-igraph](https://igraph.org/python/)                  | [github](https://github.com/igraph/python-igraph) | x   |
+| **python-igraph** |             | [python-igraph](https://igraph.org/python/)                  | [github](https://github.com/igraph/python-igraph) | X   |
 
 ### Geo
 
@@ -48,8 +48,8 @@ matplotlib의 경우에는 인터랙티브하게 사용할 수 있으나 보통 
 | Name           | Description   | Documentation                                                                          | Github                                                              | use |
 | -------------- | ------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | --- |
 | **folium**     | leaflet.js    | [folium](https://python-visualization.github.io/folium/)                               | [github](https://github.com/python-visualization/folium)            | O   |
-| **geopandas**  |               | [geopandas](https://geopandas.readthedocs.io/en/latest/)                               | [github](https://github.com/geopandas/geopandas)                    | x   |
-| **googlemaps** | 구글 지도 API | [googlemaps](https://googlemaps.github.io/google-maps-services-python/docs/index.html) | [github](https://github.com/googlemaps/google-maps-services-python) | x   |
+| **geopandas**  |               | [geopandas](https://geopandas.readthedocs.io/en/latest/)                               | [github](https://github.com/geopandas/geopandas)                    | X   |
+| **googlemaps** | 구글 지도 API | [googlemaps](https://googlemaps.github.io/google-maps-services-python/docs/index.html) | [github](https://github.com/googlemaps/google-maps-services-python) | X   |
 
 ### Specific
 
@@ -71,7 +71,7 @@ matplotlib의 경우에는 인터랙티브하게 사용할 수 있으나 보통 
 | ------------ | --------------- | ------------------------------------------------------------- | ------------------------------------------- | --- |
 | **SHAP**     | Shapley + @     | [SHAP](https://shap.readthedocs.io/en/latest/#)               | [github](https://github.com/slundberg/shap) | O   |
 | **dtreeviz** | 결정트리 시각화 | [dtreeviz](https://explained.ai/decision-tree-viz/index.html) | [github](https://github.com/parrt/dtreeviz) | O   |
-| **LIME**     |                 | [LIME](https://lime-ml.readthedocs.io/en/latest/lime.html)    | [github](https://github.com/marcotcr/lime)  | x   |
+| **LIME**     |                 | [LIME](https://lime-ml.readthedocs.io/en/latest/lime.html)    | [github](https://github.com/marcotcr/lime)  | X   |
 
 
 ### 데이터를 다루는 라이브러리
