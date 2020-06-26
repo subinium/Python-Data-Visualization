@@ -1,71 +1,82 @@
-# Python Visualization
+# Python Data Visualization
 
-***author : subinium***
+Python + 데이터시각화로 할 수 있는 다양한 팁들과 튜토리얼을 만드는 것을 목표로 합니다.
 
-Python에는 많은 시각화 라이브러리가 있습니다. 이런 라이브러리에 대한 간략한 정보를 서술해보고자 합니다.
-개인 프로젝트를 포함하여 각 라이브러리에 대한 튜토리얼 또는 자료들을 모아두는 것을 목표로 합니다.
+## Libraries
 
-## Visualization Libraries
+> `use`는 제가 사용해본 라이브러리 체크를 위해 만들었습니다
 
 ### Static
 
-정적 데이터 시각화 툴입니다.
+범용적으로 사용하는 데이터 시각화 라이브러리입니다. 
 
-| Name           | Description | Documentation                                          | Github                                             |
-| -------------- | ----------- | ------------------------------------------------------ | -------------------------------------------------- |
-| **matplotlib** |             | [matplotlib](https://matplotlib.org/)                  | [github](https://github.com/matplotlib/matplotlib) |
-| **seaborn**    |             | [seaborn](http://seaborn.pydata.org/)                  | [github](https://github.com/mwaskom/seaborn)       |
-| **plotnine**   |             | [plotnine](https://plotnine.readthedocs.io/en/stable/) | [gituhub](https://github.com/has2k1/plotnine)      |
+matplotlib의 경우에는 인터랙티브하게 사용할 수 있으나 보통 정적 데이터 시각화에 많이 활용합니다.
+
+| Name           | Description                           | Documentation                                          | Github                                             | use |
+| -------------- | ------------------------------------- | ------------------------------------------------------ | -------------------------------------------------- | --- |
+| **matplotlib** | 가장 기본적인 시각화 라이브러리       | [matplotlib](https://matplotlib.org/)                  | [github](https://github.com/matplotlib/matplotlib) | O   |
+| **seaborn**    | matplotlib을 베이스로하는 통계 시각화 | [seaborn](http://seaborn.pydata.org/)                  | [github](https://github.com/mwaskom/seaborn)       | O   |
+| **plotnine**   | ggplot2을 사용할 수 있는 라이브러리   | [plotnine](https://plotnine.readthedocs.io/en/stable/) | [gituhub](https://github.com/has2k1/plotnine)      | X   |
 
 ### Interactive
 
-인터랙티브 시각화 툴입니다. 위의 툴들보다 훨씬 다채로운 시각화를 진행할 수 있습니다.
+인터랙티브 시각화 라이브러리 입니다. 위의 툴들보다 훨씬 다채로운 시각화를 진행할 수 있습니다.
 
-| Name          | Description | Documentation                           | Github                                            |
-| ------------- | ----------- | --------------------------------------- | ------------------------------------------------- |
-| **plotly**    |             | [plotly](https://plot.ly/python/)       | [github](https://github.com/plotly/plotly.py)     |
-| **bokeh**     |             | [bokeh](https://bokeh.org/)             | [github](https://github.com/bokeh/bokeh)          |
-| **altair**    |             | [altair](https://altair-viz.github.io/) | [github](https://github.com/altair-viz/altair)    |
-| **pyecharts** |             | [pyecharts](https://pyecharts.org/)     | [github](https://github.com/pyecharts/pyecharts/) |
+이 라이브러리들도 다양한 시각화를 지원합니다. (네트워크, 지도, 등등)
 
-### Specific
+| Name          | Description | Documentation                            | Github                                            | use |
+| ------------- | ----------- | ---------------------------------------- | ------------------------------------------------- | --- |
+| **plotly**    |             | [plotly](https://plot.ly/python/)        | [github](https://github.com/plotly/plotly.py)     | O   |
+| **bokeh**     |             | [bokeh](https://bokeh.org/)              | [github](https://github.com/bokeh/bokeh)          | O   |
+| **altair**    |             | [altair](https://altair-viz.github.io/)  | [github](https://github.com/altair-viz/altair)    | O   |
+| **pygal**     |             | [pygal](http://www.pygal.org/en/stable/) | [github](https://github.com/Kozea/pygal)          | x   |
+| **pyecharts** |             | [pyecharts](https://pyecharts.org/)      | [github](https://github.com/pyecharts/pyecharts/) | X   |
 
-조금 특별한 시각화를 할 수 있는 라이브러리 입니다.
+### Network
 
-| Name          | Description | Documentation                                                                       | Github                                               |
-| ------------- | ----------- | ----------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| **missingno** |             | [missingno](https://www.pydoc.io/pypi/missingno-0.4.1/autoapi/missingno/index.html) | [github](https://github.com/ResidentMario/missingno) |
-| **pywaffle**  |             | [pywaffle](https://pywaffle.readthedocs.io/en/latest/)                              | [github](https://github.com/gyli/PyWaffle)           |
-| **networkx**  |             | [networkx](https://networkx.github.io/documentation/stable/)                        | [github](https://github.com/networkx/networkx)       |
-| **wordcloud** |             | [wordcloud](https://amueller.github.io/word_cloud/)                                 | [github](https://github.com/amueller/word_cloud)     |
+관계를 시각화하는 라이브러리 입니다. 
+
+| Name              | Description | Documentation                                                | Github                                            | use |
+| ----------------- | ----------- | ------------------------------------------------------------ | ------------------------------------------------- | --- |
+| **networkx**      |             | [networkx](https://networkx.github.io/documentation/stable/) | [github](https://github.com/networkx/networkx)    | O   |
+| **python-igraph** |             | [python-igraph](https://igraph.org/python/)                  | [github](https://github.com/igraph/python-igraph) | x   |
 
 ### Geo
 
-지도 데이터는 다음과 같은 툴들을 사용할 수 있습니다.
+지도/지리 데이터 시각화 라이브러리입니다.
 
-| Name          | Description | Documentation                                            | Github                                                   |
-| ------------- | ----------- | -------------------------------------------------------- | -------------------------------------------------------- |
-| **folium**    |             | [folium](https://python-visualization.github.io/folium/) | [github](https://github.com/python-visualization/folium) |
-| **geopandas** |             | [geopandas](https://geopandas.readthedocs.io/en/latest/) | [github](https://github.com/geopandas/geopandas)         |
+| Name           | Description   | Documentation                                                                          | Github                                                              | use |
+| -------------- | ------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | --- |
+| **folium**     | leaflet.js    | [folium](https://python-visualization.github.io/folium/)                               | [github](https://github.com/python-visualization/folium)            | O   |
+| **geopandas**  |               | [geopandas](https://geopandas.readthedocs.io/en/latest/)                               | [github](https://github.com/geopandas/geopandas)                    | x   |
+| **googlemaps** | 구글 지도 API | [googlemaps](https://googlemaps.github.io/google-maps-services-python/docs/index.html) | [github](https://github.com/googlemaps/google-maps-services-python) | x   |
+
+### Specific
+
+특수한 목적의 시각화 라이브러리입니다.
+
+| Name          | Description   | Documentation                                          | Github                                               | use |
+| ------------- | ------------- | ------------------------------------------------------ | ---------------------------------------------------- | --- |
+| **missingno** | 결측치        |                                                        | [github](https://github.com/ResidentMario/missingno) | O   |
+| **pywaffle**  | 와플 차트     | [pywaffle](https://pywaffle.readthedocs.io/en/latest/) | [github](https://github.com/gyli/PyWaffle)           | O   |
+| **wordcloud** | 워드 클라우드 | [wordcloud](https://amueller.github.io/word_cloud/)    | [github](https://github.com/amueller/word_cloud)     | O   |
+| **squarify**  | 트리맵        |                                                        | [github](https://github.com/laserson/squarify)       | O   |
 
 
 ### Interpretable AI
 
-모델 해석을 위해서는 다음과 같은 시각화 툴을 사용할 수 있습니다.
+머신러닝 모델의 해석을 위해 만들어진 라이브러리입니다. (제 목표이기도 합니다.)
 
-| Name         | Description | Documentation                                                 | Github                                      |
-| ------------ | ----------- | ------------------------------------------------------------- | ------------------------------------------- |
-| **dtreeviz** |             | [dtreeviz](https://explained.ai/decision-tree-viz/index.html) | [github](https://github.com/parrt/dtreeviz) |
-| **SHAP**     |             | [SHAP](https://shap.readthedocs.io/en/latest/#)               | [github](https://github.com/slundberg/shap) |
-| **LIME**     |             | [LIME](https://lime-ml.readthedocs.io/en/latest/lime.html)    | [github](https://github.com/marcotcr/lime)  |
+| Name         | Description     | Documentation                                                 | Github                                      | use |
+| ------------ | --------------- | ------------------------------------------------------------- | ------------------------------------------- | --- |
+| **SHAP**     | Shapley + @     | [SHAP](https://shap.readthedocs.io/en/latest/#)               | [github](https://github.com/slundberg/shap) | O   |
+| **dtreeviz** | 결정트리 시각화 | [dtreeviz](https://explained.ai/decision-tree-viz/index.html) | [github](https://github.com/parrt/dtreeviz) | O   |
+| **LIME**     |                 | [LIME](https://lime-ml.readthedocs.io/en/latest/lime.html)    | [github](https://github.com/marcotcr/lime)  | x   |
 
-## Useful Links
 
-### Webpage
+### 데이터를 다루는 라이브러리
 
-### Kaggle
-
-### Article
-
-### Repo
-
+| Name       | Description                  | Documentation                         | Github                                             | use |
+| ---------- | ---------------------------- | ------------------------------------- | -------------------------------------------------- | --- |
+| **numpy**  | 벡터 및 행렬 연산 라이브러리 | [matplotlib](https://matplotlib.org/) | [github](https://github.com/matplotlib/matplotlib) | O   |
+| **pandas** | 데이터 분석 라이브러리       | [seaborn](http://seaborn.pydata.org/) | [github](https://github.com/mwaskom/seaborn)       | O   |
