@@ -18,6 +18,8 @@ matplotlib의 경우에는 인터랙티브하게 사용할 수 있으나 보통 
 | **seaborn**    | matplotlib을 베이스로하는 통계 시각화 | [seaborn](http://seaborn.pydata.org/)                  | [github](https://github.com/mwaskom/seaborn)       | O   |
 | **plotnine**   | ggplot2을 사용할 수 있는 라이브러리   | [plotnine](https://plotnine.readthedocs.io/en/stable/) | [github](https://github.com/has2k1/plotnine)       | X   |
 
+- [Matplotlib 튜토리얼](/matplotlib/README.md)
+
 ### Interactive
 
 인터랙티브 시각화 라이브러리 입니다. 위의 툴들보다 훨씬 다채로운 시각화를 진행할 수 있습니다.
