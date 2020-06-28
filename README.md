@@ -47,11 +47,12 @@ matplotlib의 경우에는 인터랙티브하게 사용할 수 있으나 보통 
 
 지도/지리 데이터 시각화 라이브러리입니다.
 
-| Name           | Description   | Documentation                                                                          | Github                                                              | use |
-| -------------- | ------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | --- |
-| **folium**     | leaflet.js    | [folium](https://python-visualization.github.io/folium/)                               | [github](https://github.com/python-visualization/folium)            | O   |
-| **geopandas**  |               | [geopandas](https://geopandas.readthedocs.io/en/latest/)                               | [github](https://github.com/geopandas/geopandas)                    | X   |
-| **googlemaps** | 구글 지도 API | [googlemaps](https://googlemaps.github.io/google-maps-services-python/docs/index.html) | [github](https://github.com/googlemaps/google-maps-services-python) | X   |
+| Name           | Description                      | Documentation                                                                          | Github                                                                                 | use |
+| -------------- | -------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | --- |
+| **folium**     | leaflet.js                       | [folium](https://python-visualization.github.io/folium/)                               | [github](https://github.com/python-visualization/folium)                               | O   |
+| **geopandas**  |                                  | [geopandas](https://geopandas.readthedocs.io/en/latest/)                               | [github](https://github.com/geopandas/geopandas)                                       | X   |
+| **googlemaps** | 구글 지도 API                    | [googlemaps](https://googlemaps.github.io/google-maps-services-python/docs/index.html) | [github](https://github.com/googlemaps/google-maps-services-python)                    | X   |
+| **kapler.gl**  | Jupyter Widget으로 사용가능 (3D) | [kapler.gl](https://docs.kepler.gl/docs/keplergl-jupyter)                              | [github](https://github.com/keplergl/kepler.gl/tree/master/bindings/kepler.gl-jupyter) | X   |
 
 ### Specific
 
