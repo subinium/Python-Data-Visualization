@@ -8,17 +8,18 @@ Python + 데이터시각화로 할 수 있는 다양한 팁들과 튜토리얼�
 
 ### Static
 
-범용적으로 사용하는 데이터 시각화 라이브러리입니다. 
+범용적으로 사용하는 정적 데이터 시각화 라이브러리입니다. 
 
 matplotlib의 경우에는 인터랙티브하게 사용할 수 있으나 보통 정적 데이터 시각화에 많이 활용합니다.
 
-| Name           | Description                           | Documentation                                          | Github                                             | use |
-| -------------- | ------------------------------------- | ------------------------------------------------------ | -------------------------------------------------- | --- |
-| **matplotlib** | 가장 기본적인 시각화 라이브러리       | [matplotlib](https://matplotlib.org/)                  | [github](https://github.com/matplotlib/matplotlib) | O   |
-| **seaborn**    | matplotlib을 베이스로하는 통계 시각화 | [seaborn](http://seaborn.pydata.org/)                  | [github](https://github.com/mwaskom/seaborn)       | O   |
-| **plotnine**   | ggplot2을 사용할 수 있는 라이브러리   | [plotnine](https://plotnine.readthedocs.io/en/stable/) | [github](https://github.com/has2k1/plotnine)       | X   |
+| Name           | Description                                | Documentation                                          | Github                                             | use |
+| -------------- | ------------------------------------------ | ------------------------------------------------------ | -------------------------------------------------- | --- |
+| **matplotlib** | 가장 기본적이고 범용적인 시각화 라이브러리 | [matplotlib](https://matplotlib.org/)                  | [github](https://github.com/matplotlib/matplotlib) | O   |
+| **seaborn**    | matplotlib을 베이스로하는 통계 시각화      | [seaborn](http://seaborn.pydata.org/)                  | [github](https://github.com/mwaskom/seaborn)       | O   |
+| **plotnine**   | ggplot2을 사용할 수 있는 라이브러리        | [plotnine](https://plotnine.readthedocs.io/en/stable/) | [github](https://github.com/has2k1/plotnine)       | X   |
 
-- [Matplotlib 튜토리얼](/matplotlib/README.md)
+- [Matplotlib Tutorial](/matplotlib/README.md)
+- [Seaborn Tutorial](/matplotlib/README.md)
 
 ### Interactive
 
@@ -52,11 +53,11 @@ matplotlib의 경우에는 인터랙티브하게 사용할 수 있으나 보통 
 | **folium**     | leaflet.js                       | [folium](https://python-visualization.github.io/folium/)                               | [github](https://github.com/python-visualization/folium)                               | O   |
 | **geopandas**  |                                  | [geopandas](https://geopandas.readthedocs.io/en/latest/)                               | [github](https://github.com/geopandas/geopandas)                                       | X   |
 | **googlemaps** | 구글 지도 API                    | [googlemaps](https://googlemaps.github.io/google-maps-services-python/docs/index.html) | [github](https://github.com/googlemaps/google-maps-services-python)                    | X   |
-| **kapler.gl**  | Jupyter Widget으로 사용가능 (3D) | [kapler.gl](https://docs.kepler.gl/docs/keplergl-jupyter)                              | [github](https://github.com/keplergl/kepler.gl/tree/master/bindings/kepler.gl-jupyter) | X   |
+| **kepler.gl**  | Jupyter Widget으로 사용가능 (3D) | [kepler.gl](https://docs.kepler.gl/docs/keplergl-jupyter)                              | [github](https://github.com/keplergl/kepler.gl/tree/master/bindings/kepler.gl-jupyter) | X   |
 
-### Specific
+### ETC
 
-특수한 목적의 시각화 라이브러리입니다.
+특수한 목적의 시각화 라이브러리입니다. 이 라이브러리는 Matplotlib을 기반으로 만들어졌습니다.
 
 | Name          | Description   | Documentation                                          | Github                                               | use |
 | ------------- | ------------- | ------------------------------------------------------ | ---------------------------------------------------- | --- |
@@ -65,6 +66,7 @@ matplotlib의 경우에는 인터랙티브하게 사용할 수 있으나 보통 
 | **wordcloud** | 워드 클라우드 | [wordcloud](https://amueller.github.io/word_cloud/)    | [github](https://github.com/amueller/word_cloud)     | O   |
 | **squarify**  | 트리맵        |                                                        | [github](https://github.com/laserson/squarify)       | O   |
 
+- [ETC Tutorial](/etc/README.md)
 
 ### Interpretable AI
 
