@@ -12,8 +12,9 @@
 
 기본적인 문법 연습과 matplotlib를 가볍게 살펴봅시다.
 
-- [1-1.기본적인 plot 3가지 (line, bar, scatter)](/matplotlib/1-1.3_basic_plots.ipynb)
-- API의 이해
+- [**1-1. 기본적인 plot 3가지 (line, bar, scatter)**](/matplotlib/1-1.3_basic_plots.ipynb)
+- [1-2. Matplotlib의 미리보기](/matplotlib/1-2.preview.ipynb)
+- [1-3. API의 이해](/matplotlib/1-3.API.ipynb)
 - Figure와 Axes
 - 색과 테마
 - Text의 종류와 위치
