@@ -4,6 +4,11 @@
 
 각 내용은 jupyter notebook으로 만들 예정입니다.
 
+전체적인 내용이 완성되기 전까지는 표현이 살짝 raw 할 수 있습니다. 
+ 
+- 이 내용을 보기전에 [pandas나 numpy 튜토리얼(TBD)](/data_processing)을 먼저 보면 좋습니다.
+- 제목에 link + bold처리는 1차 완료한 내용입니다.
+
 ## 기초
 
 > 이것만 알아도 기본은 먹고 들어간다!
@@ -13,11 +18,11 @@
 기본적인 문법 연습과 matplotlib를 가볍게 살펴봅시다.
 
 - [**1-1. 기본적인 plot 3가지 (line, bar, scatter)**](/matplotlib/1-1.3_basic_plots.ipynb)
-- [1-2. Matplotlib의 미리보기](/matplotlib/1-2.preview.ipynb)
-- [1-3. API의 이해](/matplotlib/1-3.API.ipynb)
-- Figure와 Axes
-- 색과 테마
-- Text의 종류와 위치
+- [**1-2. Matplotlib의 미리보기**](/matplotlib/1-2.preview.ipynb)
+- [**1-3. API의 이해**](/matplotlib/1-3.API.ipynb)
+- [**1-4. Figure와 Axes**](/matplotlib/1-4.Figure_Axes.ipynb)
+- [1-5. 색과 테마](/matplotlib/1-5.Color_Theme.ipynb)
+- [1-6. Text의 종류와 위치](/matplotlib/1-6.Text.ipynb)
 
 ### 2. matplotlib의 다양한 시각화
 
