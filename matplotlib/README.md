@@ -21,7 +21,7 @@
 - [**1-2. Matplotlib의 미리보기**](/matplotlib/1-2.preview.ipynb)
 - [**1-3. API의 이해**](/matplotlib/1-3.API.ipynb)
 - [**1-4. Figure와 Axes**](/matplotlib/1-4.Figure_Axes.ipynb)
-- [1-5. 색과 테마](/matplotlib/1-5.Color_Theme.ipynb)
+- [**1-5. 색과 테마**](/matplotlib/1-5.Color_Stylesheet.ipynb)
 - [1-6. Text의 종류와 위치](/matplotlib/1-6.Text.ipynb)
 
 ### 2. matplotlib의 다양한 시각화
